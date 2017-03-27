@@ -24,5 +24,4 @@ object Ranking {
     ranks += Rank(16, "King")
     ranks += Rank(17, "Ace")
 
-
 }

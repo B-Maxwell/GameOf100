@@ -1,4 +1,3 @@
-
 public class Card {
     String name;
     int suit;
@@ -21,6 +20,7 @@ public class Card {
             case 4:
                 s = "spades";
         }
+        
         switch (rank) {
             case 1:
                 r = "ace";
