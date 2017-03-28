@@ -1,8 +1,3 @@
-object Team {
-  val players: List[String]
-  def teamNumber(): Int
-}
-
 class ScoreBoard (bid, bidWinner, teamOneScore, teamTwoScore, bidWinningTeam) {
 
   val score = (trickScore: Int) => trickScore + score
