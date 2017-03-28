@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#cheat-sheet {
+    background-color: black;
+    opacity: 0.5;
+    color: white
+}
+
+#stage-reduce {
+    margin-top: 100px
+}
+
+#reduce {
+    background-color: black;
+    opacity: 0.5;
+    color: white
+}
+
+#cat-winner {
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    margin-top: 10px
+}
+
+#scoreboard {
+    background-color: black;
+    opacity: 0.5;
+    color: white
+}
+
+#bid-grid {
+    margin-top: 80px
+}
+
+#bid {
+    background-color: cyan;
+}
+
+#hand {
+    position: absolute;
+    bottom: 0px;
+    width: 1200px;
+}
+#card-background {
+    background-color: green;
+    padding: 10px 0px 10px 0px;
+}
