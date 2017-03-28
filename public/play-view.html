@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+
+<head>
+    <meta charset="utf-8">
+    <title>Play View</title>
+    <link rel="stylesheet" type="text/css" href="cards.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="play-view.css" media="screen" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script></head>
+<body>
+<div class="container">
+    <div class="row">
+        <div id="cheat-sheet" class="col-md-2">
+            <h4>Cheat Sheet</h4> Ace: 1<br> King/Opposite King: 25<br> Queen: 0<br> Jack/Opposite Jack: 1<br> 10: 1<br> 9/Opposite 9: 9<br> 5/Opposite 5: 5<br> 2: 1<br> Joker: 17<br> All Other Cards: 0
+        </div>
+
+        <div id="table-class" class="col-md-4 col-md-offset-6">
+            <div id="table1">
+                <table id="table0">
+                    <tr><th>Team 1</th></tr>
+                    <tr><td>208</td></tr>
+                </table>
+                <table id="table2">
+                    <tr><th>Team 2</th></tr>
+                    <tr><td>430</td></tr>
+                </table>
+            </div>
+
+            <table id="table3">
+                <tr>
+                    <th>Round</th>
+                    <th>Team 1</th>
+                    <th>Bid Info</th>
+                    <th>Team 2</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>34</td>
+                    <td><span class="glyphicon glyphicon-arrow-left"></span> 67 (P1)</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>101</td>
+                    <td>(P4) 71<span class="glyphicon glyphicon-arrow-right"></span></td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Play -->
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <img class="card joker"><br>
+            <img class="card seven-of-clubs" id="play">
+            <img class="trump clubs" id="trump">
+            <h4 id="totalpoints">
+                    <span id="span-points">
+                        18
+                    </span>
+            </h4>
+            <img class="card six-of-clubs" id="img-class"><br>
+            <img class="card ace-of-hearts">
+        </div>
+    </div>
+
+    <!-- Hand -->
+    <div id="hand" class="row">
+        <div id="hand-div" class="col-md-10 col-md-offset-1">
+            <img class="card ace-of-spades"></img>
+            <img class="card eight-of-diamonds"></img>
+            <img class="card two-of-clubs"></img>
+            <img class="card seven-of-hearts"></img>
+            <img class="card jack-of-clubs"></img>
+            <img class="card nine-of-spades"></img>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+.container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#cheat-sheet {
+    background-color: black;
+    opacity: 0.5;
+    color: white
+}
+
+#table-class {
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+}
+
+#table0{
+    display: inline-block;
+}
+
+#table1 {
+    margin-left: 10px;
+}
+
+#table2 {
+    display: inline-block;
+    margin-left: 70px;
+}
+#table3 {
+    margin-left: 70px;
+}
+
+#play {
+    display: inline-block;
+}
+
+#trump {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+#totalpoints {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%
+}
+
+#span-points {
+    background-color: white;
+    padding: 2px
+}
+
+#img-class {
+    display: inline-block
+}
+
+#hand {
+    position: absolute;
+    bottom: 0px;
+    width: 1200px
+}
+
+#hand-div {
+    background-color: green;
+    padding: 10px 0px 10px 0px;
+}
